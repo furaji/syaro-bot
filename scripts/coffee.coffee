@@ -2,5 +2,5 @@ module.exports = (robot) ->
   robot.hear /コーヒー飲みたい/, (res) ->
     res.send 'ゴクゴクゴクゴク'
 
-  robot.respond /おしっこ/, (res) ->
+  robot.hear /おしっこ/, (res) ->
     res.send 'じょろろろろ'
