@@ -7,3 +7,5 @@ module.exports = (robot) ->
     res.send 'Zzz'
   robot.hear /\(\^o\^\)ｳﾞｧｱｱｱｱｱｱｱｱｱ/, (res) ->
     res.send '(^o^)ｳﾞｧｱｱｱｱｱｱｱｱｱ'
+  robot.hear /シャロちゃん結婚しよう/, (res) ->
+    res.send '＞＜'
