@@ -8,4 +8,7 @@ module.exports = (robot) ->
   robot.hear /\(\^o\^\)ｳﾞｧｱｱｱｱｱｱｱｱｱ/, (res) ->
     res.send '(^o^)ｳﾞｧｱｱｱｱｱｱｱｱｱ'
   robot.hear /シャロちゃん結婚しよう/, (res) ->
-    res.send '＞＜'
+    res.send res.random [
+      '＞＜',
+      'やだ'
+    ]
