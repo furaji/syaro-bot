@@ -9,6 +9,8 @@ module.exports = (robot) ->
     res.send 'はやく'
   robot.hear /かに/, (res) ->
     res.send 'ｸﾞﾁｭﾙﾙﾙｩ'
+  robot.hear /痴態を晒してしまぁぁぁ…っ！/, (res) ->
+    res.send 'ヒッ、ヒギィィー！'
   robot.hear /\(\^o\^\)ｳﾞｧｱｱｱｱｱｱｱｱｱ/, (res) ->
     res.send '(^o^)ｳﾞｧｱｱｱｱｱｱｱｱｱ'
   robot.hear /シャロちゃん結婚しよう/, (res) ->
