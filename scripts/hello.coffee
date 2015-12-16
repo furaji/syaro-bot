@@ -11,6 +11,8 @@ module.exports = (robot) ->
     res.send 'はやく'
   robot.hear /かに/, (res) ->
     res.send 'ｸﾞﾁｭﾙﾙﾙｩ'
+  robot.hear /まぐろ/, (res) ->
+    res.send '解体の時間です。\r\nｼﾞｭﾁｭﾙﾙﾙﾙｩ'
   robot.hear /蝦夷/, (res) ->
     res.send '内地'
   robot.hear /痴態を晒してしまぁぁぁ…っ！/, (res) ->
