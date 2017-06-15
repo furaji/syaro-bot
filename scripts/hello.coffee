@@ -15,6 +15,12 @@ module.exports = (robot) ->
     res.send '解体の時間です。\r\nｼﾞｭﾁｭﾙﾙﾙﾙｩ'
   robot.hear /蝦夷/, (res) ->
     res.send '内地'
+  robot.hear /5000兆円/, (res) ->
+    res.send '欲しい！'
+  robot.hear /ちんこびんびん/, (res) ->
+    res.send 'ビンラディン'
+  robot.hear /おまんこびしゃびしゃ/, (res) ->
+    res.send '毘沙門天'
   robot.hear /ばくだ/, (res) ->
     res.send 'クソ譜面だ！！'
   robot.hear /チノちゃん/, (res) ->
