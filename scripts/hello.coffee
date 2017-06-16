@@ -17,6 +17,8 @@ module.exports = (robot) ->
     res.send '内地'
   robot.hear /5000兆円/, (res) ->
     res.send '欲しい！'
+  robot.hear /うんこもりもり/, (res) ->
+    res.send '森鴎外'
   robot.hear /ちんこびんびん/, (res) ->
     res.send 'ビンラディン'
   robot.hear /おまんこびしゃびしゃ/, (res) ->
