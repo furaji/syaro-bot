@@ -31,6 +31,10 @@ module.exports = (robot) ->
     res.send 'ヒッ、ヒギィィー！'
   robot.hear /\(\^o\^\)ｳﾞｧｱｱｱｱｱｱｱｱｱ/, (res) ->
     res.send '(^o^)ｳﾞｧｱｱｱｱｱｱｱｱｱ'
+  robot.hear /君と夏の終わり/, (res) ->
+    res.send '将来の夢'
+  robot.hear /みんなダメ/, (res) ->
+    res.send '全部おしまい'
   robot.hear /シャロちゃん結婚しよう/, (res) ->
     res.send res.random [
       '＞＜',
